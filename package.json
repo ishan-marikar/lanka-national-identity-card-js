@@ -1,5 +1,5 @@
 {
-  "name": "lanka-national-identity-card",
+  "name": "lanka-nic",
   "version": "1.0.0",
   "description":
     "A tiny utility to extract useful information out of a Sri Lankan NIC number.",
