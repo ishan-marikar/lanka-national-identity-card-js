@@ -23,7 +23,7 @@ describe("NIC (Female - 1992.01.18)", () => {
 
   test("should return correct response for date of birth", () => {
     let { dateOfBirth } = lankaNIC.getInfoFromNIC(NIC1);
-    expect(dateOfBirth).toEqual(new Date("1992-01-18"));
+    expect(dateOfBirth).toEqual(new Date(new Date("1992-01-18").setHours(0, 0, 0, 0)));
   });
 });
 
@@ -45,6 +45,6 @@ describe("NIC (Male - 1995.05.27)", () => {
 
   test("should return correct response for date of birth", () => {
     let { dateOfBirth } = lankaNIC.getInfoFromNIC(NIC2);
-    expect(dateOfBirth).toEqual(new Date("1995-05-27"));
+    expect(dateOfBirth).toEqual(new Date(new Date("1995-05-27").setHours(0, 0, 0, 0)));
   });
 });
