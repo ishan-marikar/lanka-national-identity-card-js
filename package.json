@@ -13,5 +13,9 @@
   "scripts": {
     "test": "./node_modules/.bin/jest tests"
   },
+  "jest": {
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
   "repository": "https://github.com/ishan-marikar/lanka-national-identity-card-js.git"
 }

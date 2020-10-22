@@ -1,4 +1,4 @@
-const lankaNIC = require("../");
+const lankaNIC = require("../index");
 
 // These NIC numbers are randomly generated.
 // Any resemblance to that of an actual person's is purely coincidental.
