@@ -1,8 +1,7 @@
 {
   "name": "lanka-nic",
   "version": "1.0.0",
-  "description":
-    "A tiny utility to extract useful information out of a Sri Lankan NIC number.",
+  "description": "A tiny utility to extract useful information out of a Sri Lankan NIC number.",
   "main": "index.js",
   "author": "Ishan Marikar <ishan.marikar@icloud.com>",
   "license": "MIT",
@@ -14,6 +13,5 @@
   "scripts": {
     "test": "./node_modules/.bin/jest tests"
   },
-  "repository":
-    "https://github.com/ishan-marikar/lanka-national-identity-card-js.git"
+  "repository": "https://github.com/ishan-marikar/lanka-national-identity-card-js.git"
 }
